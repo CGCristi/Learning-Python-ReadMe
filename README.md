@@ -1,7 +1,7 @@
 # Learning-Python-ReadMe
 # Best way to learn Python!
 
-Basic Operators
+## Basic Operators
 
 This section explains how to use basic operators in Python.
 
@@ -31,7 +31,7 @@ print("test")
 
 
 
-Classes and Objects
+## Classes and Objects
 
 Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.
 
@@ -59,7 +59,7 @@ Dictionaries can be iterated over, just like a list. However, a dictionary, unli
 
 
 
-Functions
+## Functions
 
 What are Functions?
 
@@ -93,7 +93,7 @@ Unlike languages like C,CPP.. we can use else for loops. When the loop condition
 
 
 
-Printing
+## Printing
 
 Python is a very simple language, and has a very straightforward syntax. It encourages programmers to program without boilerplate (prepared) code. The simplest directive in Python is the "print" directive - it simply prints out a line (and also includes a newline, unlike in C).
 
@@ -117,7 +117,7 @@ You can do anything else, not only "Hello,World!".
 
 
 
-String Formatting
+## String Formatting
 
 Python uses C-style string formatting to create new, formatted strings. The "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d".
 
@@ -149,7 +149,8 @@ Strings are bits of text. They can be defined as anything between quotes
   
   
   
-  Basic String Operations
+  
+*Basic String Operations*
 
 Strings are bits of text. They can be defined as anything between quotes:
 

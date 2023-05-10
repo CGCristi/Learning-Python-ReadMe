@@ -1,47 +1,47 @@
 # Learning-Python-ReadMe
 # Best way to learn Python!
 
-## Basic Operators
+# Basic Operators
 
 This section explains how to use basic operators in Python.
 
-## Arithmetic Operators
+# Arithmetic Operators
 
 - Just as any other programming languages, the addition, subtraction, multiplication, and division operators can be used with numbers
 
-# number=1*8+6-2
+## number=1*8+6-2
 
-# print("number")
+## print("number")
 
 - Try to predict what the answer will be. Does python follow order of operations?
 
 - Another operator available is the modulo (%) operator, which returns the integer remainder of the division. dividend % divisor = remainder.
 
-# test=11 % 3
+## test=11 % 3
 
-# print("test")
-
-
+## print("test")
 
 
 
-## Classes and Objects
+
+
+# Classes and Objects
 
 - Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.
 
 - You can create multiple different objects that are of the same class(have the same variables and functions defined). However, each object contains independent copies of the variables defined in the class.
 
-## init()
+# init()
 
 - The __init__() function, is a special function that is called when the class is being initiated. It's used for assigning values in a class.
 
-## Dictionaries
+# Dictionaries
 
 - A dictionary is a data type similar to arrays, but works with keys and values instead of indexes. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
 
 - For example, a database of phone numbers could be stored using a dictionary
 
-## Iterating over dictionaries
+# Iterating over dictionaries
 
 - Dictionaries can be iterated over, just like a list. However, a dictionary, unlike a list, does not keep the order of the values stored in it.
 
@@ -49,9 +49,9 @@ This section explains how to use basic operators in Python.
 
 
 
-## Functions
+# Functions
 
-## What are Functions?
+# What are Functions?
 
 - Functions are a convenient way to divide your code into useful blocks, allowing us to order our code, make it more readable, reuse it and save some time. Also functions are a key way to define interfaces so programmers can share their code.
 
@@ -59,7 +59,7 @@ This section explains how to use basic operators in Python.
 
 - Functions in python are defined using the block keyword "def", followed with the function's name as the block's name
 
-## How do you call functions in Python?
+# How do you call functions in Python?
 
 - Simply write the function's name followed by (), placing any required arguments within the brackets.
 
@@ -78,7 +78,7 @@ This section explains how to use basic operators in Python.
 
 
 
-## Printing
+# Printing
 
 - Python is a very simple language, and has a very straightforward syntax. It encourages programmers to program without boilerplate (prepared) code. The simplest directive in Python is the "print" directive - it simply prints out a line (and also includes a newline, unlike in C).
 
@@ -86,32 +86,32 @@ This section explains how to use basic operators in Python.
 
 - For example, one difference between Python 2 and 3 is the print statement. In Python 2, the "print" statement is not a function, and therefore it is invoked without parentheses. However, in Python 3, it is a function, and must be invoked with parentheses.
 
-# To print a string in Python 3, just write:
+## To print a string in Python 3, just write:
 
-# print("Hello,World!")
+## print("Hello,World!")
 
 - You can do anything else, not only "Hello,World!".
 
 
 
 
-## String Formatting
+# String Formatting
 
 - Python uses C-style string formatting to create new, formatted strings. The "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d".
 
 - Let's say you have a variable called "name" with your user name in it, and you would then like to print(out a greeting to that user.)
 
-# name="John" print("Hello, %s" % name)
+## name="John" print("Hello, %s" % name)
 
 ## Here are some basic argument specifiers you should know:
 
-# %s - String (or any object with a string representation, like numbers)
+## %s - String (or any object with a string representation, like numbers)
 
-# %d - Integers
+## %d - Integers
 
-# %f - Floating point numbers
+## %f - Floating point numbers
 
-# %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+## %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
 
 %x/%X - Integers in hex representation (lowercase/uppercase)
 
@@ -139,7 +139,7 @@ astring2= "Hello"
   
   
  
-   Loops
+Loops
 
   
 Can we use "else" clause for loops?

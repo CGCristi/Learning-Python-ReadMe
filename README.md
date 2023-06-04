@@ -11,7 +11,7 @@ This section explains how to use basic operators in Python.
 
 ## number=1*8+6-2
 
-## print("number")
+## print(number)
 
 - Try to predict what the answer will be. Does python follow order of operations?
 
@@ -19,7 +19,7 @@ This section explains how to use basic operators in Python.
 
 ## test=11 % 3
 
-## print("test")
+## print(test)
 
 
 
@@ -193,3 +193,71 @@ Modules and Libraries: Python has a vast ecosystem of modules and libraries that
 Input and Output: Python allows you to interact with the user through the standard input (input()) and display output using the print() function.
 
 These are just a few basics of Python to get you started. Python has extensive documentation and a supportive community, making it easy to find resources and examples for further learning.
+  
+
+  
+  Let's create a basic "guess the number" game where the player tries to guess a randomly generated number.
+
+Here's the step-by-step process:
+
+Step 1: Import the necessary module.
+
+import random
+
+Step 2: Generate a random number.
+
+
+number = random.randint(1, 100)
+
+Step 3: Create a loop to allow the player to make guesses until they find the correct number.
+
+
+while True:
+
+    guess = int(input("Guess a number between 1 and 100: "))
+
+    if guess == number:
+
+        print("Congratulations! You guessed the correct number.")
+
+        break
+
+    elif guess < number:
+
+        print("Too low. Try again.")
+
+    else:
+
+        print("Too high. Try again.")
+
+Step 4: Run the game.
+
+                        
+if __name__ == '__main__':
+
+    print("Welcome to the Guess the Number Game!")
+
+    play_game()
+
+That's it! You now have a simple "guess the number" game in Python. You can customize it further by adding additional features like keeping track of the number of attempts or implementing difficulty levels.
+      
+      
+      
+      
+ Coding advanced algorithms and data structures requires a solid understanding of the underlying concepts and problem-solving techniques. Here's a general approach to coding advanced algorithms and data structures in Python:
+
+1. Study and understand the algorithm or data structure: Start by thoroughly studying the algorithm or data structure you want to implement. Understand its purpose, how it works, and the problem it solves. Use textbooks, online resources, or academic papers to gain a deeper understanding.
+
+2. Plan and design your implementation: Create a plan for how you'll implement the algorithm or data structure in Python. Break it down into smaller steps and think about the necessary data structures and operations involved. Consider the time and space complexities, as well as any specific requirements or constraints.
+
+3. Choose the appropriate data structures: Depending on the algorithm or data structure, select the appropriate built-in data structures or design your own custom data structures using classes. For example, if you're implementing a graph, you may need to define classes for nodes and edges.
+
+4. Implement the algorithm or data structure: Start translating your design into actual Python code. Write functions or methods that perform the necessary operations and utilize the chosen data structures. Pay attention to details, naming conventions, and code readability. Test your implementation incrementally to catch any errors or issues early on.
+
+5. Optimize and analyze performance: Once you have a working implementation, analyze its performance in terms of time and space complexity. Look for opportunities to optimize the code by reducing unnecessary operations, improving memory usage, or utilizing more efficient algorithms or data structures. Use Python's profiling tools to identify performance bottlenecks and make necessary adjustments.
+
+6. Test thoroughly: Test your implementation with a variety of inputs, including edge cases, to ensure its correctness and robustness. Write test cases that cover different scenarios and validate the expected outputs. Automated testing frameworks like `unittest` or `pytest` can be helpful for organizing and running tests.
+
+7. Document and maintain: Document your code, including explanations of the algorithm or data structure, its implementation details, and any specific considerations. Add comments where necessary to improve code readability. Regularly review and update your codebase to ensure it remains maintainable and adaptable to potential changes or improvements.
+
+Remember that advanced algorithms and data structures can be complex, and mastering them requires practice and continuous learning. Utilize resources like textbooks, online courses, programming challenges, and open-source projects to deepen your knowledge and gain practical experience.
